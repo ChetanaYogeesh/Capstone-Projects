@@ -1,5 +1,3 @@
-Here's a README.md file that explains the entire process of Change Data Capture (CDC) using AWS Data Migration Service (DMS), Glue, Spark, Lambda, and CloudWatch Logs.
-
 # Change Data Capture using AWS DMS, Glue, Spark, Lambda, and CloudWatch Logs
 
 This repository contains code and instructions to implement Change Data Capture (CDC) using a combination of AWS services including AWS Data Migration Service (DMS), AWS Glue, Apache Spark, AWS Lambda, and AWS CloudWatch Logs. The solution captures changes from a source database, processes them using Spark, and stores the results in an S3 bucket.
