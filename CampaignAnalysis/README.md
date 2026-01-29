@@ -1,4 +1,4 @@
-# Marketing Analytics - Rewritten Jupyter Notebooks
+# Marketing Analytics
 
 This project contains marketing analytics Jupyter notebooks, complete with sample data and comprehensive visualizations.
 
@@ -39,40 +39,6 @@ The notebooks process and analyze marketing data across three main areas:
 - **fig4_spend_vs_revenue.png** - Scatter plot showing ROI efficiency
 - **fig5_conversion_analysis.png** - Conversion funnel and rates by channel
 
-### Data Files
-- **marketing_analytics_combined.csv** - Complete dataset (132 records)
-- **performance_by_medium.csv** - Aggregated metrics by marketing channel
-- **monthly_metrics.csv** - Time-series metrics by month
-
-## 🎯 Key Improvements Over Original
-
-### Code Quality
-- ✅ **Clean, well-documented code** with docstrings and comments
-- ✅ **Modular functions** that are reusable and maintainable
-- ✅ **Type hints and parameter documentation**
-- ✅ **Error handling** and data validation
-- ✅ **Removed hardcoded paths** and external dependencies
-- ✅ **No authentication requirements** - works with sample data
-
-### Data Generation
-- ✅ **Realistic sample data** with seasonal variations
-- ✅ **Proper data types** and formatting
-- ✅ **Derived metrics** calculated correctly (CTR, CPC, ROAS, ROI)
-- ✅ **Time-based features** (year, quarter, month)
-
-### Visualizations
-- ✅ **Professional styling** with consistent color schemes
-- ✅ **Proper formatting** for currency and percentages
-- ✅ **Clear titles and labels** on all charts
-- ✅ **Multiple chart types**: bar, line, scatter, pie, stacked
-- ✅ **Interactive elements** like trend lines and reference lines
-- ✅ **High-resolution output** (300 DPI)
-
-### Documentation
-- ✅ **Markdown cells** explaining each section
-- ✅ **Clear section headers** organizing the analysis
-- ✅ **Inline comments** explaining complex operations
-- ✅ **Summary statistics** printed at key points
 
 ## 📈 Sample Results
 
@@ -118,6 +84,14 @@ All visualizations are saved as high-resolution PNG files that can be viewed dir
 
 ## 📊 Visualization Gallery
 
+
+<img width="4770" height="1771" alt="fig5_conversion_analysis" src="https://github.com/user-attachments/assets/bd9f8628-f01c-43ae-b7e3-35a547477dc1" />
+<img width="4169" height="2368" alt="fig4_spend_vs_revenue" src="https://github.com/user-attachments/assets/ac4c7024-27c3-49ea-a43d-a77f2bcc0f1e" />
+<img width="4774" height="3571" alt="fig3_monthly_trends" src="https://github.com/user-attachments/assets/5d77c3ec-3d2f-43be-9320-fc79d6326e98" />
+<img width="4768" height="2973" alt="fig2_channel_performance" src="https://github.com/user-attachments/assets/43a8b071-5672-4692-9a22-0c02bf3a46fd" />
+<img width="4497" height="3357" alt="fig1_executive_dashboard" src="https://github.com/user-attachments/assets/9aafd62d-5e6b-4cab-b15d-be7d3345db2a" />
+
+
 ### Executive Dashboard
 Comprehensive 7-panel dashboard showing:
 - Spend by medium (horizontal bar)
@@ -127,7 +101,6 @@ Comprehensive 7-panel dashboard showing:
 - Top mediums by ROAS
 - Marketing funnel (logarithmic scale)
 - Quarterly spend vs revenue comparison
-
 
 ### Channel Performance
 Four-panel analysis of:
@@ -179,37 +152,35 @@ These notebooks can be used for:
 5. **Trend Analysis** - Understand seasonal patterns and growth
 6. **Learning** - Study data analysis and visualization techniques
 
-## 📝 Notes
+## 🎯 Key Improvements Over Original
 
-- All data is **randomly generated** for demonstration purposes
-- The code is **production-ready** and can be adapted for real data
-- **No external dependencies** - no Google Sheets, Jira, or authentication needed
-- All visualizations use **non-interactive backend** (Agg) for server environments
-- Currency formatted as **USD** with proper thousands separators
-- Percentages shown with **appropriate decimal places**
+### Code Quality
+- ✅ **Clean, well-documented code** with docstrings and comments
+- ✅ **Modular functions** that are reusable and maintainable
+- ✅ **Type hints and parameter documentation**
+- ✅ **Error handling** and data validation
+- ✅ **Removed hardcoded paths** and external dependencies
+- ✅ **No authentication requirements** - works with sample data
 
-## 🎓 Learning Points
+### Data Generation
+- ✅ **Realistic sample data** with seasonal variations
+- ✅ **Proper data types** and formatting
+- ✅ **Derived metrics** calculated correctly (CTR, CPC, ROAS, ROI)
+- ✅ **Time-based features** (year, quarter, month)
 
-This project demonstrates:
-- Professional data wrangling techniques
-- Effective use of pandas for data aggregation
-- Creating publication-quality visualizations with matplotlib/seaborn
-- Proper Jupyter notebook structure and documentation
-- Generating synthetic data for testing and demonstrations
-- Calculating marketing KPIs (ROAS, ROI, CTR, CPC)
-- Time-series analysis and trend visualization
-- Multi-panel dashboard creation
+### Visualizations
+- ✅ **Professional styling** with consistent color schemes
+- ✅ **Proper formatting** for currency and percentages
+- ✅ **Clear titles and labels** on all charts
+- ✅ **Multiple chart types**: bar, line, scatter, pie, stacked
+- ✅ **Interactive elements** like trend lines and reference lines
+- ✅ **High-resolution output** (300 DPI)
 
-## 📧 Support
-
-These notebooks are self-contained and fully documented. Each cell includes comments explaining the logic. If you need to adapt them for your own data:
-
-1. Replace the sample data generation sections with your data loading code
-2. Ensure your data has similar column names and types
-3. Adjust aggregations and metrics as needed for your business logic
-4. Customize colors, styles, and chart types to match your preferences
-
----
+### Documentation
+- ✅ **Markdown cells** explaining each section
+- ✅ **Clear section headers** organizing the analysis
+- ✅ **Inline comments** explaining complex operations
+- ✅ **Summary statistics** printed at key points
 
 **Generated**: January 2026  
 **Status**: ✅ All notebooks executed successfully with sample data  
