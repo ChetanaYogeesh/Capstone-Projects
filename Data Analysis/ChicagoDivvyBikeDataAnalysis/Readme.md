@@ -11,21 +11,6 @@ This project provides a comprehensive analysis of the Chicago Divvy bike share s
 - **Socioeconomic Correlation**: Relationship between bike usage and demographic factors
 - **Statistical Testing**: Hypothesis testing and correlation analysis
 
-## Files Included
-
-1. **Divvy_Analysis_Report.docx** - Comprehensive 30+ page report with:
-   - Executive summary
-   - Detailed methodology
-   - Analysis results and visualizations
-   - Statistical findings
-   - Recommendations for system optimization
-   - Technical appendix
-
-2. **divvy_analysis_clean.py** - Clean, refactored Python code with:
-   - Object-oriented design
-   - Modular visualization functions
-   - Publication-quality graphics (300 DPI)
-   - Comprehensive documentation
 
 ## Requirements
 
@@ -243,9 +228,3 @@ Analysis Period: 2014-2016
 ## License
 
 This analysis code is provided for educational and research purposes.
-
-
-
----
-
-**Last Updated**: January 2026
