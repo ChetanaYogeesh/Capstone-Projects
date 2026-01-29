@@ -9,37 +9,6 @@ The notebooks process and analyze marketing data across three main areas:
 2. **Invoice Data** - Marketing budgets, actual spend, and variance analysis
 3. **Order Data** - Sales attribution, revenue, and customer data
 
-## 📁 Files Included
-
-### Jupyter Notebooks
-1. **01_Data_Wrangling_Ads_Data.ipynb**
-   - Processes advertising campaign data
-   - Generates metrics: CTR, CPC, conversion rates
-   - Visualizes spend and performance by medium
-
-2. **02_Data_Wrangling_Invoice.ipynb**
-   - Analyzes marketing invoices and budgets
-   - Calculates budget variance
-   - Visualizes spending patterns
-
-3. **03_Data_Wrangling_Order_Data.ipynb**
-   - Processes order/sales data with marketing attribution
-   - Analyzes customer types and product categories
-   - Calculates revenue by marketing channel
-
-4. **04_Marketing_Analytics_Dashboard.ipynb**
-   - Comprehensive dashboard combining all data sources
-   - Executive-level visualizations
-   - Performance metrics and KPIs
-
-### Generated Visualizations
-- **fig1_executive_dashboard.png** - Complete marketing overview with 7 charts
-- **fig2_channel_performance.png** - CTR, conversion rate, revenue, and ROI by medium
-- **fig3_monthly_trends.png** - Time series analysis of spend, revenue, and ROAS
-- **fig4_spend_vs_revenue.png** - Scatter plot showing ROI efficiency
-- **fig5_conversion_analysis.png** - Conversion funnel and rates by channel
-
-
 ## 📈 Sample Results
 
 Based on the generated sample data for 2018:
@@ -63,27 +32,14 @@ The visualizations show which marketing channels delivered the best:
 - Conversion rates
 - Cost efficiency
 
-## 🚀 How to Use
-
-### Option 1: View the Notebooks
-Simply open any of the `.ipynb` files in Jupyter Notebook or JupyterLab to view the code and markdown documentation.
-
-### Option 2: Run the Notebooks
-```bash
-# Install dependencies
-pip install pandas numpy matplotlib seaborn jupyter
-
-# Start Jupyter
-jupyter notebook
-
-# Open any notebook and run all cells
-```
-
-### Option 3: View the Visualizations
-All visualizations are saved as high-resolution PNG files that can be viewed directly or included in reports.
-
 ## 📊 Visualization Gallery
 
+### Generated Visualizations
+- **fig1_executive_dashboard.png** - Complete marketing overview with 7 charts
+- **fig2_channel_performance.png** - CTR, conversion rate, revenue, and ROI by medium
+- **fig3_monthly_trends.png** - Time series analysis of spend, revenue, and ROAS
+- **fig4_spend_vs_revenue.png** - Scatter plot showing ROI efficiency
+- **fig5_conversion_analysis.png** - Conversion funnel and rates by channel
 
 <img width="4770" height="1771" alt="fig5_conversion_analysis" src="https://github.com/user-attachments/assets/bd9f8628-f01c-43ae-b7e3-35a547477dc1" />
 <img width="4169" height="2368" alt="fig4_spend_vs_revenue" src="https://github.com/user-attachments/assets/ac4c7024-27c3-49ea-a43d-a77f2bcc0f1e" />
@@ -151,6 +107,48 @@ These notebooks can be used for:
 4. **Executive Reporting** - Generate comprehensive dashboards
 5. **Trend Analysis** - Understand seasonal patterns and growth
 6. **Learning** - Study data analysis and visualization techniques
+
+## 📁 Files Included
+
+### Jupyter Notebooks
+1. **01_Data_Wrangling_Ads_Data.ipynb**
+   - Processes advertising campaign data
+   - Generates metrics: CTR, CPC, conversion rates
+   - Visualizes spend and performance by medium
+
+2. **02_Data_Wrangling_Invoice.ipynb**
+   - Analyzes marketing invoices and budgets
+   - Calculates budget variance
+   - Visualizes spending patterns
+
+3. **03_Data_Wrangling_Order_Data.ipynb**
+   - Processes order/sales data with marketing attribution
+   - Analyzes customer types and product categories
+   - Calculates revenue by marketing channel
+
+4. **04_Marketing_Analytics_Dashboard.ipynb**
+   - Comprehensive dashboard combining all data sources
+   - Executive-level visualizations
+   - Performance metrics and KPIs
+
+## 🚀 How to Use
+
+### Option 1: View the Notebooks
+Simply open any of the `.ipynb` files in Jupyter Notebook or JupyterLab to view the code and markdown documentation.
+
+### Option 2: Run the Notebooks
+```bash
+# Install dependencies
+pip install pandas numpy matplotlib seaborn jupyter
+
+# Start Jupyter
+jupyter notebook
+
+# Open any notebook and run all cells
+```
+
+### Option 3: View the Visualizations
+All visualizations are saved as high-resolution PNG files that can be viewed directly or included in reports.
 
 ## 🎯 Key Improvements Over Original
 
